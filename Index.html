@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike</title>
+    <style>
+        /* Reset and base styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-style: italic;
+            color: #ccc;
+        }
+
+        /* Section content */
+        section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2,
+        h3 {
+            color: #1a1a1a;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* List */
+        ul {
+            list-style-type: disc;
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        ul a {
+            text-decoration: none;
+            color: #444;
+            transition: color 0.3s ease;
+        }
+
+        ul a:hover {
+            color: #0077cc;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Image */
+        img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        table caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Video */
+        video {
+            display: block;
+            margin: 30px auto 0;
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            video,
+            img {
+                width: 100%;
+            }
+
+            th,
+            td {
+                font-size: 0.95em;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Gear up</h1>
+        <p>"A bike is freedom, speed, power, style, and pure thrill."</p>
+    </header>
+    <section>
+        <h2>About Bikes</h2>
+        <p>Bikes represent freedom, adventure, and passion. With their sleek design, powerful performance, and unmatched
+            agility, they turn every ride into an experience. Whether cruising through city streets or racing down open
+            highways, bikes offer a thrilling sense of control and connection to the road. Built for speed, style, and
+            strength, they are more than machines—they're a lifestyle.</p>
+
+        <h3>Types of bikes</h3>
+        <ul type="disc">
+            <a href="https://en.wikipedia.org/wiki/Sports_motorcycle" target="_blank">
+                <li>Sports Bike</li>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Cruiser_(motorcycle)" target="_blank">
+                <li>Cruiser Bike</li>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Bicycle_commuting" target="_blank">
+                <li>Commuter Bike</li>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Dual-sport_motorcycle" target="_blank">
+                <li>Adventure/Touring Bike</li>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Category:Dirt_biking" target="_blank">
+                <li>Dirt/Motocross Bike</li>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Electric_bicycle" target="_blank">
+                <li>Electric Bike (e-Bike)</li>
+            </a>
+        </ul>
+        <a href="https://en.wikipedia.org/wiki/Motorcycle" target="_blank"><img
+                src="https://i.pinimg.com/736x/1b/df/e9/1bdfe97c2a387918915fb533e10fd697.jpg" alt="types of bike"></a>
+
+        <table>
+            <caption>Types of Bikes</caption>
+            <thead>
+                <tr>
+                    <th>Bike Type</th>
+                    <th>Primary Use</th>
+                    <th>Key Features</th>
+                    <th>Example Brands</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Road Bike</td>
+                    <td>On-road riding, racing</td>
+                    <td>Lightweight frame, thin tires, drop handlebars</td>
+                    <td>Trek, Giant, Specialized</td>
+                </tr>
+                <tr>
+                    <td>Mountain Bike</td>
+                    <td>Off-road, trails</td>
+                    <td>Wide tires, suspension, strong frame</td>
+                    <td>Cannondale, Scott, Merida</td>
+                </tr>
+                <tr>
+                    <td>Hybrid Bike</td>
+                    <td>City commute + light trail</td>
+                    <td>Mix of road and mountain bike features, flat handlebars</td>
+                    <td>Schwinn, Marin, Decathlon</td>
+                </tr>
+                <tr>
+                    <td>Electric Bike</td>
+                    <td>Commuting, easy riding</td>
+                    <td>Motor-assisted pedaling, rechargeable battery</td>
+                    <td>Rad Power, Hero, Ather</td>
+                </tr>
+                <tr>
+                    <td>BMX Bike</td>
+                    <td>Tricks, stunts, racing</td>
+                    <td>Small frame, thick tires, single gear</td>
+                    <td>Mongoose, Redline</td>
+                </tr>
+                <tr>
+                    <td>Cruiser Bike</td>
+                    <td>Leisure riding, beach rides</td>
+                    <td>Comfortable seat, upright handlebars, wide tires</td>
+                    <td>Electra, Schwinn</td>
+                </tr>
+                <tr>
+                    <td>Touring Bike</td>
+                    <td>Long-distance travel</td>
+                    <td>Sturdy frame, racks for bags, comfort-oriented</td>
+                    <td>Surly, Kona</td>
+                </tr>
+            </tbody>
+        </table>
+        <video src="bike.mp4" controls autoplay muted loop></video>
+    </section>
+    <footer>
+        &copy; 2025 The Art of Being Alone — All Rights Reserved
+    </footer>
+</body>
+
+</html>
